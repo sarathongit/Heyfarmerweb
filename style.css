@@ -1,0 +1,139 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0ffe0;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #6cbb3c;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    height: 60px;
+  }
+  
+  .logo img {
+    height: 100%;
+    display: block;
+  }
+  
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+    margin-left: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 550px;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 20px;
+  }
+
+  form {
+    max-width: min-content;
+    margin: 9px;
+    padding-left: 250px;
+    color: rgb(124, 133, 133);
+  }
+  
+  section {
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #6cbb3c;
+  }
+  
+  img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #6cbb3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5a9c32;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #6cbb3c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  footer q {
+    margin:auto 0;
+    font-size: 12px;
+    padding-left: 1000px;
+    color: #5a9c32;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    nav li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
